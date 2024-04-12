@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1c1a1a;
+    background-color: #b098b8; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e523cb; 
+    color: #fff; 
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px; 
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+body.dark-mode {
+    background-color: rgb(2, 2, 1);
+    color: rgb(255, 255, 255);
+}
